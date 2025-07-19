@@ -1,0 +1,54 @@
+"use strict";
+// Na criação de classes nós temos que fazer a definização do parametro e sinalizar a existência do atributo antes de escrever a classe construtora. 
+class Pessoas {
+    constructor(nome, renda) {
+        this.nome = nome;
+        this.renda = renda;
+    }
+    dizOla() {
+        return `${this.nome} diz ola! `;
+    }
+}
+// Forma encurtada apresentada pelo GPT
+class Pessoas1 {
+    constructor(nome) {
+        this.nome = nome;
+    }
+}
+class ContaBancaria {
+    constructor(numeroConta) {
+        this.saldo = 0;
+        this.numeroConta = numeroConta;
+    }
+    // Quando usamos o static sinalizamos que o metódo só pode ser acessado por meio da classe abstrata, sem ser acionado pela instância.
+    static numeroBanco() {
+        return 123;
+    }
+    getSaldo() {
+        return this.saldo;
+    }
+    depositar(valor) {
+        this.saldo += valor;
+    }
+}
+class ContaBancariaPF extends ContaBancaria {
+    depositar(valor) {
+        this.saldo = valor * 2;
+    }
+}
+const contaPedro = new ContaBancariaPF(1);
+// Utilizando getters e setters
+class Conta {
+    constructor(saldo) {
+        this._saldo = saldo;
+    }
+    // Geralmente utilizado para interagir com atríbutos ou metódos privados.
+    get saldo() {
+        return this._saldo;
+    }
+    // Para chamar tem que tratar como se fosse um atributo. (conta.saldo = valor)
+    set saldo(newValue) {
+        this._saldo = newValue;
+    }
+}
+const conta = new Conta(2000);
