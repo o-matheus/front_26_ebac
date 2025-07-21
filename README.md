@@ -121,16 +121,38 @@ Nas classes podemos definir o encapsulamento dos atributos e classes se eles sã
 
 Aprendemos também sobre getters e setters que são formas de fazer alterações nos valores do atributo da classe sem necessariamente chamar os metódos, em relação ao get é só colocar `instancia.get(nome do get)` e o setter vai funcionar como se fosse um atributo, em vez de chamar a função seria `instancia.set = valor`
 
-
-
 ## Aula 7 - Conheça Interface
 
 ### Objetivos
+* compreender o conceito de interfaces e seu uso na programação;
+* implementar interfaces em classes;
+* entender a flexibilidade das interfaces.
+
+### Pontos Importantes
+Uma interface quando estamos trabalhando com o progamação orientada a objetos é um conjunto de regras que essa classe em específico vai seguir, em relação aos metódos e atributos.
+Uma classe pode ter diversas interfaces `implements`, porém só pode herdar informações de uma classe `extends`. 
+Quando criamos uma interface nós não escrevemos a função, somente tipificamos seus parametros e retorno. É importante fazer uma interface mais reduzida para que as classes tenham que ter funções que elas não vão utilziar. 
+As interfaces também podem herdar de outras interfaces suas caracteristicas por meio do `extends`
+As interfaces também podem ser utilziadas como tipos customizados.
+
 
 ## Aula 8 - Integre TypeScript com o DOM
 
 ### Objetivos
+* compreender a integração do TypeScript com o DOM;
+* aplicar tipos e interfaces para elementos do DOM;
+* documentar o código TypeScript com comentários e dicas.
+
+### Pontos importantes
+O TypeScript ele é bastante utilziado com o Frontend, trabalhando com alguns frameworks como angular, view, react.
+
 
 ## Tarefa
+A entrega deste exercício consiste em:
 
-### Objetivos
+• Utilizando o TypeScript e a tipagem escreva duas funções: uma função de multiplicação que deverá receber como argumentos dois números e retornar a multiplicação deles, e uma função de saudação que deverá receber um nome e retornar a concatenação “Olá “ + nome;
+
+• No repositório do curso crie uma branch chamada exercicio_ts e armaze o código TS escrito nesta branch, nos envie o link através da plataforma.
+
+### Pontos importantes
+O exércicio foi bem tranquilo, não tem muito o que comentar, foi só criar a branch, o arquivo e as duas funções.

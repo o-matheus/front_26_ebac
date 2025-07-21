@@ -37,18 +37,19 @@ class ContaBancariaPF extends ContaBancaria {
     }
 }
 const contaPedro = new ContaBancariaPF(1);
-// Utilizando getters e setters
-class Conta {
-    constructor(saldo) {
-        this._saldo = saldo;
-    }
-    // Geralmente utilizado para interagir com atríbutos ou metódos privados.
-    get saldo() {
-        return this._saldo;
-    }
-    // Para chamar tem que tratar como se fosse um atributo. (conta.saldo = valor)
-    set saldo(newValue) {
-        this._saldo = newValue;
-    }
-}
-const conta = new Conta(2000);
+// // Utilizando getters e setters
+// class Conta {
+//     private _saldo: number;
+//     constructor(saldo: number) {
+//         this._saldo = saldo;
+//     }
+//     // Geralmente utilizado para interagir com atríbutos ou metódos privados.
+//     get saldo() {
+//         return this._saldo;
+//     }
+//     // Para chamar tem que tratar como se fosse um atributo. (conta.saldo = valor)
+//     set saldo(newValue) {
+//         this._saldo = newValue;
+//     }
+// }
+// const conta = new Conta(2000);

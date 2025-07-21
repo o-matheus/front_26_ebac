@@ -1,0 +1,23 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "[Aula 1 - Conheça o TypreScript ](#aula-1---conheça-o-typescript)  \r [Aula 2 - Análise os tipos básicos](#aula-2---análise-os-tipos-básicos)    \r [Aula 3 - Aplique tipagens em funções ](#aula-3---aplique-tipagens-em-funções)    \r [Aula 4 - Crie casting ](#aula-4---crie-casting)    \r [Aula 5 - Crie tipos customizados ](#aula-5---crie-tipos-customizados)    \r [Aula 6 - Explore a orientação a objetos ](#aula-6---explore-a-orientação-a-objetos)    \r [Aula 7 - Conheça interface ](#aula-7---conheça-interface)    \r [Aula 8 - Integre Typescript com o DOM ](#aula-8---integre-typescript-com-o-dom)    \r [Tarefa ](#tarefa)",
+  "homepage": "https://github.com/o-matheus/front_26_ebac#readme",
+  "bugs": {
+    "url": "https://github.com/o-matheus/front_26_ebac/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o-matheus/front_26_ebac.git"
+  },
+  "license": "ISC",
+  "author": "Matheus Aguiar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.15"
+  }
+}
